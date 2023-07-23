@@ -1,0 +1,24 @@
+{
+  "name": "1mocha",
+  "version": "1.0.0",
+  "description": "mocha chai petstore example",
+  "main": "index.js",
+  "scripts": {
+    "welcome": "mocha test/api/welcomeTest.js",
+    "get": "mocha test/api/getExample.js",
+    "post": "mocha test/api/postExample.js",
+    "chaiAssert": "mocha test/api/chaiAssert.js",
+    "reporter": "mocha test/api/chaiAssert.js -- --reporter mochawesome"
+  },
+  "author": "Rofik",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "mochawesome": "^7.1.3"
+  }
+}
