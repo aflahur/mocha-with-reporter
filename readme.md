@@ -11,5 +11,6 @@ npm install
 ```
 4. Run mocha test 
 ```
-npm run test {path/to/file}.js
+to run, look at package.json,in scriptx
+for exmaple:npm run get
 ```
